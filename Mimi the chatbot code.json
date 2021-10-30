@@ -1,0 +1,2148 @@
+{
+  "intents": [
+    {
+      "intent": "Disorders",
+      "examples": [
+        {
+          "text": "adhd"
+        },
+        {
+          "text": "ansiedad"
+        },
+        {
+          "text": "Anxiety"
+        },
+        {
+          "text": "depresion"
+        },
+        {
+          "text": "Disorders"
+        },
+        {
+          "text": "Mental Health"
+        },
+        {
+          "text": "procrastinacion"
+        },
+        {
+          "text": "procrastination"
+        },
+        {
+          "text": "Salud mental"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You've been so helpful :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "main-menu",
+      "examples": [
+        {
+          "text": "back"
+        },
+        {
+          "text": "choices"
+        },
+        {
+          "text": "home"
+        },
+        {
+          "text": "main"
+        },
+        {
+          "text": "main menu"
+        },
+        {
+          "text": "menu"
+        },
+        {
+          "text": "options"
+        },
+        {
+          "text": "previous"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no",
+      "examples": [
+        {
+          "text": "no"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "nombre",
+      "examples": [
+        {
+          "text": "$name"
+        },
+        {
+          "text": "Salma"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "resources",
+      "examples": [
+        {
+          "text": "ayuda"
+        },
+        {
+          "text": "help"
+        },
+        {
+          "text": "recursos"
+        },
+        {
+          "text": "resources"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "saludo",
+      "examples": [
+        {
+          "text": "hello"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Hey Mimi"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hola"
+        },
+        {
+          "text": "Hola Mimi"
+        },
+        {
+          "text": "holi"
+        },
+        {
+          "text": "Holi Mimi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "School",
+      "examples": [
+        {
+          "text": "Buenas calificaciones"
+        },
+        {
+          "text": "Buenas notas"
+        },
+        {
+          "text": "College"
+        },
+        {
+          "text": "Good grades"
+        },
+        {
+          "text": "Highschool"
+        },
+        {
+          "text": "School"
+        },
+        {
+          "text": "University"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes",
+      "examples": [
+        {
+          "text": "yes"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Disorders",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "adhd",
+          "synonyms": [
+            "alzheimer",
+            "aspd",
+            "autism",
+            "autistic",
+            "bipolar disorder",
+            "dementia",
+            "dyscalculia",
+            "dyslexia",
+            "dysthymia",
+            "epilepsy",
+            "fibromyalgia",
+            "hyperactivity",
+            "hypersomnia",
+            "idiopathic",
+            "migraines",
+            "neurologic",
+            "ocd",
+            "parkinsonism",
+            "ptsd",
+            "symptomatology"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ansiedad",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "anxiety",
+          "synonyms": [
+            "boredom",
+            "depersonalization",
+            "despondency",
+            "dizziness",
+            "drowsiness",
+            "hopelessness",
+            "impulsiveness",
+            "impulsivity",
+            "irritability",
+            "lethargy",
+            "loneliness",
+            "nervousness",
+            "paranoia",
+            "psychosis",
+            "restlessness",
+            "sleeplessness",
+            "somnolence",
+            "tiredness"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "depresion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "depression",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mental",
+          "synonyms": [
+            "behavioral",
+            "cognitive",
+            "dementia",
+            "physical",
+            "psychiatric",
+            "psychological",
+            "psychopathological",
+            "psychosocial",
+            "psychosomatic",
+            "schizophrenia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "salud",
+          "synonyms": [
+            "Psicologica",
+            "Psiquiatrica"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Gender",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Elle",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Female",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hombre",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Male",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mujer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "No Binario",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "No especificar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Non-Binary",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Prefer to not specify",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "They/Them",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Language_Idioma",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "English",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Español",
+          "synonyms": [
+            "Espanol"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "no",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "resources",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Recursos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Resources",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "School",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bad",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bad grades",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bien",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "calificaciones",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "college",
+          "synonyms": [
+            "academy",
+            "colleges",
+            "faculty",
+            "graduate",
+            "polytechnic",
+            "seminary",
+            "undergraduate",
+            "university"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "grades",
+          "synonyms": [
+            "curriculum",
+            "schools",
+            "students"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "notas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "school",
+          "synonyms": [
+            "academie",
+            "arquitectura",
+            "colegio",
+            "college",
+            "collège",
+            "conservatoire",
+            "conservatorio",
+            "conservatory",
+            "ecole",
+            "école",
+            "escuela",
+            "facultad",
+            "faculté",
+            "faculty",
+            "liceo",
+            "lycee",
+            "lycée",
+            "scientifico",
+            "scuola",
+            "séminaire",
+            "seminario",
+            "supérieure",
+            "teacher",
+            "teaching",
+            "universidad",
+            "universite",
+            "university"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "universidad",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "yes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing!"
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding, I am a little bit dumb!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/39/b8/76/39b876084fd2a196a3739cd0ed3bfa7e.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "anything_else && $Language_Idioma:English",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_9_1626138103056",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Select english to continue in english - eliga español para continuar en español",
+            "options": [
+              {
+                "label": "English",
+                "value": {
+                  "input": {
+                    "text": "English"
+                  }
+                }
+              },
+              {
+                "label": "Español",
+                "value": {
+                  "input": {
+                    "text": "Español"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_6_1625617432094",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1625617432102",
+      "previous_sibling": "handler_5_1625617432102"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1625617432094",
+      "context": {
+        "Language_Idioma": "@Language_Idioma"
+      },
+      "conditions": "@Language_Idioma",
+      "event_name": "input",
+      "dialog_node": "handler_5_1625617432102"
+    },
+    {
+      "type": "standard",
+      "title": "Get name / registrar nombre",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@Language_Idioma",
+      "dialog_node": "node_10_1625618046834",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "greetings - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, I'm Mimi, and I am here to help you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/f7/dd/57/f7dd571329a4b41a7bafa9a5bd42f065.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#saludo && $Language_Idioma:English",
+      "dialog_node": "node_1_1626051267387",
+      "previous_sibling": "node_6_1623958391635"
+    },
+    {
+      "type": "standard",
+      "title": "Bye copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ya te vas? :C No me dejes!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/ad/29/d3/ad29d3ccc2783e62d1f78e58cbaad1c8.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "$Language_Idioma:Español && #General_Ending",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1626138374816",
+      "previous_sibling": "node_1_1626051267387"
+    },
+    {
+      "type": "standard",
+      "title": "Disorders/ Mental health",
+      "output": {
+        "generic": [
+          {
+            "source": "https://i.pinimg.com/originals/ec/98/c7/ec98c710fbf034626384fd5b7d92231a.gif",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "I am sad to hear you are struggling with mental health issues... The first thing I can recommend you to do is to get professional help. However, if you are not able to do so you can try going to the BMCC counseling center! (https://www.bmcc.cuny.edu/student-affairs/counseling/) Good mental health is a key to having good grades in college, tell them about your problems and explain why they are an obstacle for you when it comes to classes. "
+              },
+              {
+                "text": "These are good apps to help you with this issue: "
+              },
+              {
+                "text": "I recommend an app for journalism since it is helpful for your mental health. It can be any app you want."
+              },
+              {
+                "text": "Balance (Mobile Devices)"
+              },
+              {
+                "text": "Fabulous-Daily Routine Planner(Mobile devices)"
+              },
+              {
+                "text": "BetterHelp-Therapy (Mobile devices)"
+              },
+              {
+                "text": "NYC Office of mental health (https://my.omh.ny.gov/bi/pd/saw.dll?PortalPages)"
+              },
+              {
+                "text": "mindgarden-tech.co.uk"
+              },
+              {
+                "text": "headspace.com"
+              },
+              {
+                "text": "And for more resources go to the resources page!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "$Language_Idioma:English && @Disorders",
+      "dialog_node": "node_1_1635561007051",
+      "previous_sibling": "node_3_1625621438422"
+    },
+    {
+      "type": "standard",
+      "title": "Resquesting agent ",
+      "output": {
+        "generic": [
+          {
+            "source": "https://i.pinimg.com/originals/9a/eb/8c/9aeb8c78a884a6de72d1e2b063bb13c6.gif",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "I am sorry but my hoomans are busy right now and unfortunately, I can't connect you with them!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Connect_to_Agent",
+      "dialog_node": "node_1_1635609137989",
+      "previous_sibling": "node_5_1635608707612"
+    },
+    {
+      "type": "standard",
+      "title": "Human or bot",
+      "output": {
+        "generic": [
+          {
+            "source": "https://i.pinimg.com/originals/05/4a/e2/054ae2349c2a320f4bb72894531dc040.gif",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "I am a cat-bot... don't you see????"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Human_or_Bot",
+      "dialog_node": "node_1_1635609299578",
+      "previous_sibling": "node_1_1635609137989"
+    },
+    {
+      "type": "standard",
+      "title": "Get user name",
+      "output": {
+        "generic": [
+          {
+            "source": "https://i.pinimg.com/originals/09/cd/cf/09cdcf64b16af4cb4b7b0bcd6aaa3a24.gif",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Hi, my name is Mimi and I was created to help you! I'm here to recommend resources that can help you in college. But remember, it's always best to seek professional help!"
+              },
+              {
+                "text": "What's yours? I bet it is a cute name!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1625618046834",
+      "context": {},
+      "conditions": "$Language_Idioma:English",
+      "dialog_node": "node_2_1625618029500",
+      "previous_sibling": "node_5_1625618029500"
+    },
+    {
+      "type": "standard",
+      "title": "Menu - eng",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What do you need help with  $Name_Nombre "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/49/14/38/4914389f2187d904e3c3d119febe8eec.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1625621438422",
+      "conditions": "$Language_Idioma:English",
+      "dialog_node": "node_2_1625621432316"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No lo he entendido. Puedes intentar reformularlo!"
+              },
+              {
+                "text": "¿Puede reformular su declaración? No estoy entendiendo! perdon, soy un poco tonta...."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/39/b8/76/39b876084fd2a196a3739cd0ed3bfa7e.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "anything_else && $Language_Idioma:Español",
+      "dialog_node": "node_2_1626051481806",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "title": "Disorders/ Mental health - espa",
+      "output": {
+        "generic": [
+          {
+            "source": "https://i.pinimg.com/originals/ec/98/c7/ec98c710fbf034626384fd5b7d92231a.gif",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Me entristece saber que estás luchando con problemas de salud mental... Lo primero que puedo recomendarte es que busques ayuda profesional. Sin embargo, si no puedes hacerlo puedes intentar ir al centro de asesoramiento de BMCC (https://www.bmcc.cuny.edu/student-affairs/counseling/). Una buena salud mental es clave para tener buenas notas en la universidad, cuéntales tus problemas y explícales por qué son un obstáculo para ti a la hora de ir a clase."
+              },
+              {
+                "text": "Estas son buenas aplicaciones para ayudarte con este tema: "
+              },
+              {
+                "text": "Balance (Dispositivos mobiles)"
+              },
+              {
+                "text": "Te recomiendo descargues alguna app para journalism de tu gusto! ayudan con tu salud mental."
+              },
+              {
+                "text": "Fabulous-Daily Routine Planner (Dispositivos mobiles)"
+              },
+              {
+                "text": "BetterHelp-Therapy (Dispositivos mobiles)"
+              },
+              {
+                "text": "Oficina de ayuda para salud mental de NYC (https://my.omh.ny.gov/bi/pd/saw.dll?PortalPages)"
+              },
+              {
+                "text": "mindgarden-tech.co.uk"
+              },
+              {
+                "text": "headspace.com"
+              },
+              {
+                "text": "Y para más recursos, vaya a la página de recursos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "$Language_Idioma:Español && @Disorders",
+      "dialog_node": "node_2_1635561332994",
+      "previous_sibling": "node_1_1635561007051"
+    },
+    {
+      "type": "standard",
+      "title": "About mimi",
+      "output": {
+        "generic": [
+          {
+            "source": "https://i.pinimg.com/originals/e8/1d/bc/e81dbc3d7f12ada8703d90b2e58dc308.gif",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "As I said, my name is Mimi. I am just a cat-bot! you can't configure me or something! but you can pet me!! I was created by Dinorah, Sara, Jewel, and Brandon in a super-secret laboratory."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_About_You",
+      "dialog_node": "node_2_1635608424442",
+      "previous_sibling": "node_6_1635606784356"
+    },
+    {
+      "type": "standard",
+      "title": "get name",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1625618029500",
+      "context": {
+        "Name_Nombre": "<? input.text.substring(0,1).toUpperCase()+input.text.substring(1)?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1625618029500"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1625618029500"
+    },
+    {
+      "type": "standard",
+      "title": "Menu - es",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En que necesitas ayuda $Name_Nombre"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/49/14/38/4914389f2187d904e3c3d119febe8eec.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1625621438422",
+      "conditions": "$Language_Idioma:Español",
+      "dialog_node": "node_3_1625621432316",
+      "previous_sibling": "node_2_1625621432316"
+    },
+    {
+      "type": "standard",
+      "title": "Menu",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#main-menu",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1625621438422",
+      "previous_sibling": "node_10_1625618046834"
+    },
+    {
+      "type": "standard",
+      "title": "School - espa",
+      "output": {
+        "generic": [
+          {
+            "source": "https://i.pinimg.com/originals/99/98/b8/9998b8afef201cae27f74fd538e54dcf.gif",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Oh, así que quieres tener buenas calificaciones en la universidad, ¿eh?"
+              },
+              {
+                "text": "Te recomiendo estas aplicaciones!"
+              },
+              {
+                "text": "Notion.so (Para PC y Para dispositivos mobiles )"
+              },
+              {
+                "text": "Study Bunny (Para dispositivos mobiles)(superbyte.site)"
+              },
+              {
+                "text": "Flora (Para dispositivos mobiles) (flora.appfinca.com)"
+              },
+              {
+                "text": "GoodNotes (Paid, only available on IOS devices)(goodnotes.com)"
+              },
+              {
+                "text": "Lifeat.io (Sitio Web)"
+              },
+              {
+                "text": "mybib.com (Extension de chrome para citaciones)"
+              },
+              {
+                "text": "todoist.com (Extension de Chrome)"
+              },
+              {
+                "text": "Homework Tracker (Extension de Chrome)"
+              },
+              {
+                "text": "Ah! y prueba nuestra University Study Flow App en nuestro website! "
+              },
+              {
+                "text": "Y para más recursos, vaya a la página de recursos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "@School && $Language_Idioma:Español",
+      "dialog_node": "node_3_1635562120401",
+      "previous_sibling": "node_6_1635561982945"
+    },
+    {
+      "type": "standard",
+      "title": "repeat name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cute name!! I love it $Name_Nombre"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/4b/84/46/4b8446f7de516e92837d2b671da3f619.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1625618029500",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1625621438422"
+      },
+      "conditions": "$Name_Nombre",
+      "dialog_node": "node_4_1625618029500"
+    },
+    {
+      "type": "standard",
+      "title": "Registrar nombre de usuario",
+      "output": {
+        "generic": [
+          {
+            "source": "https://i.pinimg.com/originals/09/cd/cf/09cdcf64b16af4cb4b7b0bcd6aaa3a24.gif",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Hola me llamo Mimi y fui creada para ayudarte! Estoy aqui para recomendarte recursos que te podran ayudar en la universidad. Pero recuerda, siempre es mejor buscar ayuda profesional!"
+              },
+              {
+                "text": "¿Cual es tu nombre? Apuesto que es lindo!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1625618046834",
+      "context": {},
+      "conditions": "$Language_Idioma:Español",
+      "dialog_node": "node_5_1625618029500"
+    },
+    {
+      "type": "standard",
+      "title": "Capabilities",
+      "output": {
+        "generic": [
+          {
+            "source": "https://i.pinimg.com/originals/4d/db/96/4ddb966a2dd6485e942fc45f37086849.gif",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "I am here to recommend apps and resources for school and mental health! And also to be pet and loved!!!! And definitely scratch you or something when you are distracted and not paying attention in class..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Agent_Capabilities",
+      "dialog_node": "node_5_1635608707612",
+      "previous_sibling": "node_2_1635608424442"
+    },
+    {
+      "type": "standard",
+      "title": "greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola, Soy Mimi, y estoy aqui para ayudarte!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/f7/dd/57/f7dd571329a4b41a7bafa9a5bd42f065.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#saludo && $Language_Idioma:Español",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1623958391635",
+      "previous_sibling": "node_1_1635609299578"
+    },
+    {
+      "type": "standard",
+      "title": "grabar nombre",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1625618029500",
+      "context": {
+        "Name_Nombre": "<? input.text.substring(0,1).toUpperCase()+input.text.substring(1)?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1625618029500"
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1625618029500"
+    },
+    {
+      "type": "standard",
+      "title": "School",
+      "output": {
+        "generic": [
+          {
+            "source": "https://i.pinimg.com/originals/99/98/b8/9998b8afef201cae27f74fd538e54dcf.gif",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Oh, so you want to do good at college huh!"
+              },
+              {
+                "text": "I recommend you these apps!"
+              },
+              {
+                "text": "Notion.so (On desktop and mobile devices)"
+              },
+              {
+                "text": "Study Bunny (Mobile devices) (superbyte.site)"
+              },
+              {
+                "text": "Flora (Mobile devices) (flora.appfinca.com)"
+              },
+              {
+                "text": "GoodNotes (Paid, only available on IOS devices) (goodnotes.com)"
+              },
+              {
+                "text": "Lifeat.io (Website)"
+              },
+              {
+                "text": "mybib.com (Chrome extension for citations)"
+              },
+              {
+                "text": "todoist.com (Chrome extension)"
+              },
+              {
+                "text": "Homework Tracker (Chrome extension)"
+              },
+              {
+                "text": "And definitely try our University Study Flow App on our website! "
+              },
+              {
+                "text": "And for more resources go to the resources page!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "@School && $Language_Idioma:English",
+      "dialog_node": "node_6_1635561982945",
+      "previous_sibling": "node_2_1635561332994"
+    },
+    {
+      "type": "standard",
+      "title": "Jokes",
+      "output": {
+        "generic": [
+          {
+            "title": "Jokes written by: Kelsey Pelzer",
+            "source": "https://i.pinimg.com/originals/1a/60/19/1a60192889128ab7f0e2fd9e5ea97557.gif",
+            "alt_text": "",
+            "description": "Jokes are from: https://parade.com/1038010/kelseypelzer/cat-jokes/ if you want to see them all! ",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Why did the cats ask for a drum set? They wanted to make some mewsic!"
+              },
+              {
+                "text": "What’s a cat’s favorite TV show? Claw and Order."
+              },
+              {
+                "text": "How did the Mom Cat know she was pregnant? Her test was pawsitive."
+              },
+              {
+                "text": "What normally happens when kitties go on a first date? They hiss"
+              },
+              {
+                "text": "What’s a cat’s favorite cereal? Mice crispies."
+              },
+              {
+                "text": "What color do kittens love the most? Purrple."
+              },
+              {
+                "text": "What does the cat say after making a joke? “Just kitten!”"
+              },
+              {
+                "text": "When cats need to go to the airport, who do they call? A tabby."
+              },
+              {
+                "text": "Why did the cat have to go to an accountant? They got caught up in a purramid scheme"
+              },
+              {
+                "text": "What made the cat upgrade his phone? He wanted to finally get pawtrait mode."
+              },
+              {
+                "text": "Why are kittens actually excellent bosses? They have great littership."
+              },
+              {
+                "text": "When a cat doesn’t want to say goodbye, what do they say instead? “See ya litter!”"
+              },
+              {
+                "text": "Why don’t you want to play Monopoly with a cat? They tend to be cheetahs"
+              },
+              {
+                "text": "Why do cats hate laptops? They don’t have a mouse."
+              },
+              {
+                "text": "Why do cats make horrible DJs? They always paws the tunes."
+              },
+              {
+                "text": "What did the sick cat say? “I feel clawful!”"
+              },
+              {
+                "text": " Where do cats enjoy spending a family day? The mew-seum"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#General_Jokes",
+      "dialog_node": "node_6_1635606784356",
+      "previous_sibling": "node_3_1635562120401"
+    },
+    {
+      "type": "standard",
+      "title": "repitir nombre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que nombre tan lindo!!! $Name_Nombre!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/4b/84/46/4b8446f7de516e92837d2b671da3f619.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_6_1625618029500",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1625621438422"
+      },
+      "conditions": "$Name_Nombre",
+      "dialog_node": "node_7_1625618029500"
+    },
+    {
+      "type": "standard",
+      "title": "Bye!",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you leaving me? :c don't leave me alone!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/ad/29/d3/ad29d3ccc2783e62d1f78e58cbaad1c8.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#General_Ending && $Language_Idioma:English",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1626138103056",
+      "previous_sibling": "node_1_1626138374816"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "Welcome",
+      "variable": "$Language_Idioma",
+      "dialog_node": "slot_6_1625617432094"
+    },
+    {
+      "type": "frame",
+      "title": "Welcome",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1625618046834"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Bilingüe",
+  "language": "en",
+  "description": "agua/aqua"
+}
